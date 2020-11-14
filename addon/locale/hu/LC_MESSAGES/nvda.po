@@ -7,58 +7,98 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2015-10-30 22:00+1000\n"
-"PO-Revision-Date: 2018-07-04 09:34+0200\n"
+"POT-Creation-Date: 2020-08-02 10:29+0200\n"
+"PO-Revision-Date: 2020-08-02 10:30+0200\n"
 "Last-Translator: OAron <info@o-soft.hu>\n"
 "Language-Team: HUN\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 1.8.6\n"
 
+#. TRANSLATORS: category for VLC input gestures
+#. TRANSLATORS: Settings panel title
+msgid "VLC"
+msgstr "VLC Médialejátszó"
+
+#. TRANSLATORS: The configuration option in NVDA Preferences menu
+msgid "Change VLC appModule settings"
+msgstr "VLC beállításai"
+
+#. TRANSLATORS: message shown in Input gestures dialog for this script
+msgid ""
+"Use it in the main window if tabulating between playback controls stopped "
+"working. It'll tries to bring the focus to the playback control pane to get "
+"it to work again."
+msgstr ""
+"A vezérlőgombokra helyezi a fókuszt. Akkor van rá szükség, ha a főablakban "
+"valami okból nem lehet navigálni a vezérlőgombokon."
+
+#. TRANSLATORS: message shown in Input gestures dialog for this script
+msgid ""
+"Toggle verbosity: if enabled, it will announce the elapsed time and volume"
+msgstr ""
+"Bőbeszédűség, ha be van kapcsolva,akkor a program bejelenti az eltelt időt "
+"és a hangerőt."
+
+#. TRANSLATORS: Expressing time, several hours, in plural. Maintain the space at the end to separate the next message that will be added.
 #, python-format
 msgid "%d hours "
 msgstr "%d óra "
 
+#. TRANSLATORS: Expressing time, one hour, in singular. Maintain the space at the end to separate the next message that will be added.
 #, python-format
 msgid "%d hour "
 msgstr "%d óra "
 
+#. TRANSLATORS: Expressing time, several minutes, in plural. Maintain the space at the end to separate the next message that will be added.
 #, python-format
 msgid "%s%d minutes "
 msgstr "%s%d perc "
 
+#. TRANSLATORS: Expressing time, one minute, in singular. Maintain the space at the end to separate the next message that will be added.
 #, python-format
 msgid "%s%d minute "
 msgstr "%s%d perc "
 
+#. TRANSLATORS: Expressing time, several seconds, in plural.
 #, python-format
 msgid "%s %d seconds"
 msgstr "%s %d másodperc"
 
+#. TRANSLATORS: Expressing time, one second, in singular.
 #, python-format
 msgid "%s %d second"
 msgstr "%s %d másodperc"
 
+#. Translators: As seen in the button Play/Pause of the interface
+msgid "Pause"
+msgstr "Szünet"
+
+#. TRANSLATORS: Message when there are no playback controls visible on screen, or the addon can't find them.
 msgid "There are no controls available"
 msgstr "Nincs elérhető vezérlőgomb."
 
-msgid "checked"
-msgstr "Bejelölve"
+#. TRANSLATORS: Message when the playlist is empty and there is no track to play
+msgid "Empty"
+msgstr "Üres"
 
-msgid "not checked"
-msgstr "Nincs bejelölve"
-
-msgid "unavailable"
-msgstr "Nem elérhető"
-
+#. TRANSLATORS: elapsed time of total time
 #, python-format
 msgid "%s of %s"
 msgstr "%s per %s"
 
+#. TRANSLATORS: When announces that a track is playing
 msgid " playing"
 msgstr " lejátszás"
+
+#. TRANSLATORS: message shown in Input gestures dialog for this script
+msgid "Reads the status bar information"
+msgstr "Az állapotsor tartalmának bejelentése"
+
+msgid "unchecked"
+msgstr "Nincs bejelölve"
 
 msgid "Repeat mode"
 msgstr "Ismétlő mód"
@@ -67,26 +107,16 @@ msgid "Shuffle mode"
 msgstr "Véletlenszerű lejátszás"
 
 #, python-format
-msgid "%d items in playlist"
-msgstr "%d elem a lejátszási listában"
+msgid "Volume %s"
+msgstr "Hangerő %s"
 
-msgid "Playlist is not visible"
-msgstr "A lejátszási lista nem látható"
+#. TRANSLATORS: Settings dialog title
+msgid "VLC appModule settings"
+msgstr "VLC beállítások"
 
-msgid "This item is outside the window"
-msgstr "Ez az elem az ablakon kívül van"
-
-msgid "Checked"
-msgstr "Bejelölve"
-
-msgid "edit"
-msgstr "Szerkesztés"
-
-msgid "button"
-msgstr "Gomb"
-
-msgid "tab control"
-msgstr "lapfül vezérlés"
+#. TRANSLATORS: Report time checkbox
+msgid "Announce elapsed time and volume"
+msgstr "Az eltelt idő és a hangerő bejelentése"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -96,8 +126,35 @@ msgstr "VLC Médialejátszó"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
-"It provides some accessibility features for VLC Media Player, as improve "
+"Provides some accessibility features for VLC Media Player, as improve "
 "navigation  or read status bar"
 msgstr ""
 "Elősegíti a VLC Médialejátszó akadálymentes használatát a vezérlőgombok és "
 "az állapotsor felolvasásával."
+
+#~ msgid "not checked"
+#~ msgstr "Nincs bejelölve"
+
+#~ msgid "unavailable"
+#~ msgstr "Nem elérhető"
+
+#~ msgid "%d items in playlist"
+#~ msgstr "%d elem a lejátszási listában"
+
+#~ msgid "Playlist is not visible"
+#~ msgstr "A lejátszási lista nem látható"
+
+#~ msgid "This item is outside the window"
+#~ msgstr "Ez az elem az ablakon kívül van"
+
+#~ msgid "Checked"
+#~ msgstr "Bejelölve"
+
+#~ msgid "edit"
+#~ msgstr "Szerkesztés"
+
+#~ msgid "button"
+#~ msgstr "Gomb"
+
+#~ msgid "tab control"
+#~ msgstr "lapfül vezérlés"

@@ -6,16 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC 2.1dev\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2021-02-19 22:00+0000\n"
-"PO-Revision-Date: 2021-06-15 15:53+0100\n"
+"PO-Revision-Date: 2021-08-13 23:17+0100\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
-"Language-Team: \n"
+"Language-Team: Equipa Portuguesa do NVDA: Ângelo Abrantes <ampa4374@gmail."
+"com> e Rui Fontes <Rui Fontes <rui.fontes@tiflotecnia.com>\n"
 "X-Generator: Poedit 3.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. TRANSLATORS: category for VLC input gestures
 #. TRANSLATORS: Settings panel title
@@ -98,7 +101,7 @@ msgid "Reads the status bar information"
 msgstr "Lê a informação da barra de estado"
 
 msgid "unchecked"
-msgstr "Desmarcado"
+msgstr "Não marcado"
 
 msgid "Repeat mode"
 msgstr "Modo de repetição"
